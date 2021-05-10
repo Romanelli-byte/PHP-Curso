@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+                    <cliente>
+                        <pessoa>
+                            <nome>mu</nome>
+                            <endereco>rua 29</endereco>
+                            <telefone>33334444</telefone>
+                            <email>murilo@GMAIL.COM</email>
+                            <cpf>159753</cpf>
+                        </pessoa>
+                    </cliente>

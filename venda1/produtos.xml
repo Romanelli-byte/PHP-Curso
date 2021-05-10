@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+                    <produtos>
+                        <produto>
+                            <codigo>1</codigo>
+                            <descricao>maca</descricao>
+                            <preco>2</preco>
+                        </produto>
+                    </produtos>

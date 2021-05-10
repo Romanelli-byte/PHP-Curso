@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+                    <vendas>
+                        <venda>
+                            <data>2019-06-04</data>
+                            <cliente>mu</cliente>
+                            <produto>maca</produto>
+                            <quantidade>5</quantidade>
+                            <total>10.00</total>
+                        </venda>
+                    </vendas>

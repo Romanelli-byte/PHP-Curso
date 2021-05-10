@@ -1,0 +1,7 @@
+session_start();
+
+$session["nome"][]="Jose";
+$_session["telefone"][]="()
+
+Dados armazenados em Disco Local(C:)
+wamp64 e tmp

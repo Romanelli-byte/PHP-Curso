@@ -1,0 +1,18 @@
+fieldset {
+	margin: auto;
+	width:30%;
+}
+
+p {
+	text-align: center;
+}
+
+label{
+	display: inline-block;
+	width: 120px;
+	text-align: right;
+}
+
+input {
+	width: 100px;
+}

@@ -1,0 +1,28 @@
+label{
+
+    display:inline-block;
+    width:200px;
+    text-align:right;
+}
+
+input{
+    width:200px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: lightskyblue;
+
+}
+
+footer{
+
+    width:100%;
+    position:absolute;
+    bottom:0;
+}
+
+nav{
+    font-size: 20px;
+    text-align:center;
+    padding:1em;
+}

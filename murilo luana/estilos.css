@@ -1,0 +1,26 @@
+label{
+ display: inline-block;
+ width: 120px;
+ text-align:right;
+}
+
+input{
+ width:120px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+footer{
+    width:100%;
+    position:absolute;
+    bottom:0;
+}
+
+nav{
+    float: left;
+    max-width: 160px;
+    padding:1em;
+    height: 300px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8"/>
+	<title>Exercicio 1</title>
+	<!-- <link rel="stylesheet" type="text/css" href="estilos.css"/> -->
+</head>
+<body>
+	<form action="bemvindo.php" method="POST" >
+		<p>
+			<label>Cor de fundo: </label>
+			<input type="color" name="corfundo" value="#BBBBBB"/>
+		</p>
+
+		<p>
+		<label>Tamanho da Fonte: </label>
+			<input type="text" name="tamfonte" value="medium"/>
+		</p>
+
+		<p>
+			<label>Cor da fonte: </label>
+			<input type="text" name="corfonte" value="medium"/>
+		</p>
+
+        <p>
+		<label>Alinhamento do texto: </label>
+			<select name="alinhatexto">
+				<option value="right">Direita</option>
+				<option value="center">Centro</option>
+				<option value="left">Esquerda</option>
+			</select>
+		</p>
+
+		<p>
+			<label>Alinhamento do H1: </label>
+				<select name="alinhah1">
+					<option value="right">Direita</option>
+					<option value="center">Centro</option>
+					<option value="left">Esquerda</option>
+				</select>
+			</p>
+
+		<p>
+			<label>Cor da fonte: </label>
+			<input type="text" name="corh1" value="#000000"/>
+		</p>
+		
+			<input type="submit" value="Modificar Página"/>
+			<input type="reset" value="Excluir"/>
+	</form>
+</body>
+<html>

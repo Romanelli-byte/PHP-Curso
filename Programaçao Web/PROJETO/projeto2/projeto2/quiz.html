@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">  
+		<title>Quiz PLL</title>
+
+		 <!-- Carrega os sheets necessários para a página -->
+		<link href="../css/styles.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	
+<body>
+	<div class="content">
+	<h2>Quiz Pretty Little Liars</h2>
+	<section class="courses">
+	<form  id ="quiz" name="quiz">
+		<div id="resp1">
+			<span>O que está escrito na tatuagem do Toby?</span><br>
+			<input type="radio" name="q1" id="q1-1" value="1"/>907 Free at last<br>
+			<input type="radio" name="q1" id="q1-2"  value="2"/>901 Free at last<br><!--correto !-->
+			<input type="radio" name="q1" id="q1-3"  value="3"/>902 Free at last<br>
+			<input type="radio" name="q1" id="q1-4"  value="4"/>910 Free at last<br>
+		</div>
+<br>
+	<h2 id="count"></h2>
+		<button type="button" onclick="start_quiz();">Ver Resultado</button>
+	</form>
+	</section>
+	</div>
+	<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>
